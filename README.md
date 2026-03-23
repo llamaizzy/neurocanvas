@@ -12,10 +12,6 @@ A PyTorch-based machine learning project implementing several models of increasi
 
 ├── backend.py       # Dataset classes with live visualization
 
-├── gpt_model.py     # Character-level GPT transformer
-
-├── chargpt.py       # GPT training script
-
 └── test.py          # Tests
 
 **Models**
