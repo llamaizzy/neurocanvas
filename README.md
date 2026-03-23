@@ -25,7 +25,7 @@ A PyTorch-based machine learning project implementing several models of increasi
         
         Output: Class prediction (+1 or -1)
         
-        Training: Online updates until convergence
+        Training: Online updates until convergence, 100% training accuracy
 
 2. Regression (RegressionModel): A feedforward neural network that approximates sin(x) over the interval [-2π, 2π].
 
@@ -43,7 +43,7 @@ A PyTorch-based machine learning project implementing several models of increasi
         
         Loss: Cross-Entropy
         
-        Target accuracy: ≥ 98% validation accuracy
+        Target accuracy: ≥ 95% validation accuracy
 
 4. Convolutional Digit Classifier (DigitConvolutionalModel): An extension of the digit classifier that applies a learned 2D convolution before the fully-connected layers.
 
@@ -53,7 +53,7 @@ A PyTorch-based machine learning project implementing several models of increasi
         
         Loss: Cross-Entropy
         
-        Target accuracy: ≥ 85% validation accuracy
+        Target accuracy: ≥ 81% validation accuracy
 
 5. Language Identification (LanguageIDModel): A recurrent neural network that identifies the language of a word from a 5-class set: English, Spanish, Finnish, Dutch, and Polish.
 
@@ -63,7 +63,7 @@ A PyTorch-based machine learning project implementing several models of increasi
         
         Loss: Cross-Entropy
         
-        Target accuracy: ≥ 89% validation accuracy
+        Target accuracy: ≥ 90% validation accuracy
 
 # To run:
         python/python3 test.py
