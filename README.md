@@ -1,5 +1,6 @@
-Neural Networks & NLP Models
-A PyTorch-based machine learning project implementing several models of increasing complexity, from a simple perceptron to a character-level GPT transformer.
+# NeuroCanvas: Neural Networks & NLP Models
+
+A PyTorch-based machine learning project implementing several models of increasing complexity, from a simple perceptron to attention.
 
 Project Structure
 
